@@ -9,20 +9,20 @@ const Banner = ({ticketLength, resolvedLength}) => {
     
     {/* Card 1 */}
     <div className="relative h-56 sm:h-64 rounded-2xl overflow-hidden shadow-xl
-                    bg-gradient-to-br from-purple-600 via-indigo-600 to-purple-500 text-white">
+                    bg-linear-to-br from-[#632EE3] via-[#7D45EA] to-[#9F62F2] text-white">
 
       {/* LEFT Vector */}
       <img
         src={bg}
         alt="vector-left"
-        className="absolute top-0 left-0 w-40 sm:w-56 lg:w-64 opacity-30"
+        className="absolute top-0 left-0 w-40 sm:w-56 lg:w-64 opacity-75"
       />
 
       {/* RIGHT Vector */}
       <img
         src={bg}
         alt="vector-right"
-        className="absolute top-0 right-0 w-40 sm:w-56 lg:w-64 opacity-30 rotate-180"
+        className="absolute top-0 right-0 w-40 sm:w-56 lg:w-64 opacity-75 rotate-180"
       />
 
       {/* Content */}
@@ -34,18 +34,18 @@ const Banner = ({ticketLength, resolvedLength}) => {
 
     {/* Card 2 */}
     <div className="relative h-56 sm:h-64 rounded-2xl overflow-hidden shadow-xl
-                    bg-gradient-to-br from-purple-600 via-indigo-600 to-purple-500 text-white">
+                    bg-linear-to-br from-[#54CF68] via-[#36B46E] to-[#00827A] text-white">
 
       <img
         src={bg}
         alt="vector-left"
-        className="absolute top-0 left-0 w-40 sm:w-56 lg:w-64 opacity-30"
+        className="absolute top-0 left-0 w-40 sm:w-56 lg:w-64 opacity-75"
       />
 
       <img
         src={bg}
         alt="vector-right"
-        className="absolute top-0 right-0 w-40 sm:w-56 lg:w-64 opacity-30 rotate-180"
+        className="absolute top-0 right-0 w-40 sm:w-56 lg:w-64 opacity-75 rotate-180"
       />
 
       <div className="relative z-10 flex flex-col items-center justify-center h-full">
