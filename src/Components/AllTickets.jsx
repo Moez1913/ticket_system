@@ -39,8 +39,8 @@ const AllTickets = ( {setTicketLength,setResolvedLength} ) => {
   return (
    <div className="grid grid-cols-1  lg:grid-cols-7 gap-6">
     
-     <div className=" grid order-2 lg:order-1 lg:col-span-5 mx-auto gap-4">
-      <h2>All Tickets</h2>
+     <div className="grid order-2 lg:order-1 lg:col-span-5 mx-auto gap-4">
+      <h2 className="text-xl font-bold ml-5">All Tickets</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-4">
      {
         tickets.map(ticket => <Card key={ticket.id} ticket={ticket} handleClick={handleClick}></Card>)
@@ -51,6 +51,9 @@ const AllTickets = ( {setTicketLength,setResolvedLength} ) => {
       
       <div className=" flex flex-col mx-auto gap-1 ">
         <h className="text-lg font-bold">Task Status :</h>
+        {
+          selectedTicket.length === 0 && <p className="text-[#627382]">Select a ticket to add to Task Status</p>
+        }
           {
             selectedTicket.map(ticket => <div className="card gap-1 p-4 bg-white shadow-2xl ">
               <h2 className="text-lg font-bold">{ticket.title}</h2>
@@ -60,6 +63,9 @@ const AllTickets = ( {setTicketLength,setResolvedLength} ) => {
       </div>
       <div className="gap-1 flex flex-col mx-auto">
         <h2 className="text-lg font-bold">Resolved tasks:</h2>
+        {
+          resolvedTicket.length === 0 && <p className="text-[#627382]">No task resolved yet</p>
+        }
           {
             resolvedTicket.map(ticket => <div className="card bg-white shadow-2xl p-4 ">
               <h2>{ticket.title}</h2>
