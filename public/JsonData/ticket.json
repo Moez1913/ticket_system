@@ -4,7 +4,7 @@
     "title": "Can't Access Account",
     "description": "Customer is unable to log in to their account even after multiple password reset attempts.",
     "status": "Open",
-    "priority": "High",
+    "priority": "HIGH PRIORITY",
     "customerName": "John Smith",
     "date": "2024-01-15"
   },
@@ -13,7 +13,7 @@
     "title": "Payment Failed ",
     "description": "User reports payment failure while completing the purchase using credit card.",
     "status": "In Progress",
-    "priority": "High",
+    "priority": "HIGH PRIORITY",
     "customerName": "Sarah Johnson",
     "date": "2024-01-18"
   },
@@ -22,7 +22,7 @@
     "title": "Update Not Saving",
     "description": "Changes made to profile information are not being saved properly.",
     "status": "Open",
-    "priority": "Medium",
+    "priority": "MEDIUM PRIORITY",
     "customerName": "Michael Brown",
     "date": "2024-01-20"
   },
@@ -31,7 +31,7 @@
     "title": "Dashboard Loading",
     "description": "User experiencing slow loading times when accessing dashboard analytics.",
     "status": "In Progress",
-    "priority": "Medium",
+    "priority": "MEDIUM PRIORITY",
     "customerName": "Emily Davis",
     "date": "2024-01-22"
   },
@@ -40,7 +40,7 @@
     "title": "Subscription Renewal Failed",
     "description": "Customer subscription renewal payment did not go through.",
     "status": "Open",
-    "priority": "High",
+    "priority": "HIGH PRIORITY",
     "customerName": "David Wilson",
     "date": "2024-01-25"
   },
@@ -49,7 +49,7 @@
     "title": "Email Verification Not Received",
     "description": "User did not receive verification email after signing up.",
     "status": "Closed",
-    "priority": "Low",
+    "priority": "LOW PRIORITY",
     "customerName": "Sophia Martinez",
     "date": "2024-01-28"
   },
@@ -58,7 +58,7 @@
     "title": "Error 500 on Order Page",
     "description": "Internal server error appears when user tries to access order history.",
     "status": "In Progress",
-    "priority": "High",
+    "priority": "HIGH PRIORITY",
     "customerName": "Daniel Anderson",
     "date": "2024-02-01"
   },
@@ -67,7 +67,7 @@
     "title": "Incorrect Billing Amount",
     "description": "Customer charged incorrect amount for premium subscription.",
     "status": "Open",
-    "priority": "Medium",
+    "priority": "MEDIUM PRIORITY",
     "customerName": "Olivia Thomas",
     "date": "2024-02-03"
   },
@@ -76,7 +76,7 @@
     "title": "App Crashes on Startup",
     "description": "Mobile application crashes immediately after launching.",
     "status": "In Progress",
-    "priority": "High",
+    "priority": "HIGH PRIORITY",
     "customerName": "James Taylor",
     "date": "2024-02-05"
   },
@@ -85,7 +85,7 @@
     "title": "Refund Not Processed",
     "description": "Customer requested refund but has not received confirmation.",
     "status": "Closed",
-    "priority": "Medium",
+    "priority": "MEDIUM PRIORITY",
     "customerName": "Isabella Moore",
     "date": "2024-02-07"
   }

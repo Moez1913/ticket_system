@@ -47,10 +47,10 @@ const AllTickets = ( {setTicketLength,setResolvedLength} ) => {
      }
     </div>
      </div>
-    <div className=" mx-4 grid order-1 lg:order-2 grid-cols-2 md:flex flex-col gap-1  md:col-span-2">
+    <div className="gird grid-cols-2 md:grid-cols-1  order-1 lg:order-2 md:col-span-2 gap-6 mr-4 ">
       
-      <div className="mr-4 mx-auto gap-1 ">
-        <h2>Task Statas</h2>
+      <div className=" flex flex-col mx-auto gap-1 ">
+        <h className="text-lg font-bold">Task Status :</h>
           {
             selectedTicket.map(ticket => <div className="card gap-1 p-4 bg-white shadow-2xl ">
               <h2 className="text-lg font-bold">{ticket.title}</h2>
@@ -58,8 +58,8 @@ const AllTickets = ( {setTicketLength,setResolvedLength} ) => {
             </div>)
           }
       </div>
-      <div className="gap-1">
-        <h2>Resolved task</h2>
+      <div className="gap-1 flex flex-col mx-auto">
+        <h2 className="text-lg font-bold">Resolved tasks:</h2>
           {
             resolvedTicket.map(ticket => <div className="card bg-white shadow-2xl p-4 ">
               <h2>{ticket.title}</h2>
