@@ -3,6 +3,7 @@ import Banner from './Components/Banner';
 import AllTickets from "./Components/AllTickets";
 import { useState } from "react";
 import { ToastContainer } from "react-toastify";
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
        <Navbar></Navbar>
        <Banner ticketLength={ticketLength} resolvedLength={resolvedLength}></Banner>
        <AllTickets setTicketLength={setTicketLength} setResolvedLength={setResolvedLength}></AllTickets>
+
+       <Footer></Footer>
        </section>
        <ToastContainer/>
     </>

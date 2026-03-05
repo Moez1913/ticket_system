@@ -1,5 +1,5 @@
 import bg from "../assets/vector1.png";
-import bg2 from "../assets/vector2.png";
+
 
 
 const Banner = ({ticketLength, resolvedLength}) => {
